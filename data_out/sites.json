@@ -1,0 +1,52 @@
+[
+  {
+    "id": "site01",
+    "name": "Connecting ridge (PGDA Site01)",
+    "lat": -89.452675,
+    "lon": -137.148653,
+    "ground_height_m": 1956.39,
+    "obs_height_m": 2.0,
+    "source_file": "Site01_final_adj_5mpp_surf.tif",
+    "description": "Site point: PGDA ROI (roi/Site01/Site01_ROIs.shp)."
+  },
+  {
+    "id": "site04",
+    "name": "Shackleton rim (PGDA Site04)",
+    "lat": -89.761966,
+    "lon": -157.067197,
+    "ground_height_m": 1729.12,
+    "obs_height_m": 2.0,
+    "source_file": "Site04_final_adj_5mpp_surf.tif",
+    "description": "Site point: PGDA ROI (roi/Site04/Site04_ROIs.shp)."
+  },
+  {
+    "id": "site07",
+    "name": "Peak near Shackleton (PGDA Site07)",
+    "lat": -88.807326,
+    "lon": 123.776844,
+    "ground_height_m": 1648.35,
+    "obs_height_m": 2.0,
+    "source_file": "Site07_final_adj_5mpp_surf.tif",
+    "description": "Site point: PGDA ROI (roi/Site07/Site07_ROIs.shp)."
+  },
+  {
+    "id": "site11",
+    "name": "de Gerlache rim (PGDA Site11)",
+    "lat": -88.668256,
+    "lon": -68.375764,
+    "ground_height_m": 1814.19,
+    "obs_height_m": 2.0,
+    "source_file": "Site11_final_adj_5mpp_surf.tif",
+    "description": "Site point: PGDA ROI (roi/Site11/Site11_ROIs.shp)."
+  },
+  {
+    "id": "site23",
+    "name": "Malapert massif (PGDA Site23)",
+    "lat": -86.00275,
+    "lon": 2.197695,
+    "ground_height_m": 5152.7,
+    "obs_height_m": 2.0,
+    "source_file": "Site23_final_adj_5mpp_surf.tif",
+    "description": "Site point: PGDA 69 illumination map (illum/AVGVISIB_85S_060M_201608.TIF)."
+  }
+]

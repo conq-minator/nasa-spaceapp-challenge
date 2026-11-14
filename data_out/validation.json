@@ -1,0 +1,272 @@
+[
+  {
+    "site": "site01",
+    "metric": "sun_pct",
+    "ours": 86.1,
+    "reference": 68.5,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608 (60 m pixel at the site point; 3x3 range 45.4-86.4%)",
+    "diff": 17.6,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (50.7% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; point Sun vs partial disc is negligible here (<=0.2 points)."
+  },
+  {
+    "site": "site01",
+    "metric": "earth_pct",
+    "ours": 51.1,
+    "reference": 57.5,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608_EARTH (60 m pixel at the site point; 3x3 range 51.1-58.2%)",
+    "diff": -6.4,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (50.1% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; Goddard counts Earth visible if any part of its disc clears the terrain, we use the disc centre."
+  },
+  {
+    "site": "site01",
+    "metric": "raycast_agreement_sun_pct",
+    "ours": 99.92,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": -0.08,
+    "notes": "Over the 8365 hours of 2027 the 30.7 km heightmap can check; 395 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site01",
+    "metric": "raycast_agreement_earth_pct",
+    "ours": 100,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": 0,
+    "notes": "Over the 4474 hours of 2027 the 30.7 km heightmap can check; 4286 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site01",
+    "metric": "horizons_vs_spice_max_deg",
+    "ours": 0.0005,
+    "reference": 0,
+    "source": "JPL Horizons API (coord@301) vs SPICE azlcpo, MOON_ME frame (Member1/pipeline/frame_check.py)",
+    "diff": 0.0005,
+    "notes": "Largest azimuth/elevation difference over 10 times across 2027, Sun and Earth. Tolerance 0.1 deg."
+  },
+  {
+    "site": "site01",
+    "metric": "far_minus_near_dem_median_m",
+    "ours": -0.05,
+    "reference": 0,
+    "source": "LOLA LDEM_80S_20M_FLOAT.IMG minus PGDA 78 Site01_final_adj_5mpp_surf.tif at 3997 random points in the 5 m tile",
+    "diff": -0.05,
+    "notes": "Median absolute deviation 0.58 m. The export stops if the median exceeds 50 m (catches km/m or offset errors)."
+  },
+  {
+    "site": "site04",
+    "metric": "sun_pct",
+    "ours": 80.2,
+    "reference": 66.2,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608 (60 m pixel at the site point; 3x3 range 20.5-76%)",
+    "diff": 14,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (41.4% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; point Sun vs partial disc is negligible here (<=0.2 points)."
+  },
+  {
+    "site": "site04",
+    "metric": "earth_pct",
+    "ours": 43.4,
+    "reference": 45.2,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608_EARTH (60 m pixel at the site point; 3x3 range 0-50.2%)",
+    "diff": -1.8,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (34% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; Goddard counts Earth visible if any part of its disc clears the terrain, we use the disc centre."
+  },
+  {
+    "site": "site04",
+    "metric": "raycast_agreement_sun_pct",
+    "ours": 99.81,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": -0.19,
+    "notes": "Over the 8423 hours of 2027 the 30.7 km heightmap can check; 337 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site04",
+    "metric": "raycast_agreement_earth_pct",
+    "ours": 99.93,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": -0.07,
+    "notes": "Over the 8760 hours of 2027 the 30.7 km heightmap can check; 0 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site04",
+    "metric": "horizons_vs_spice_max_deg",
+    "ours": 0.0005,
+    "reference": 0,
+    "source": "JPL Horizons API (coord@301) vs SPICE azlcpo, MOON_ME frame (Member1/pipeline/frame_check.py)",
+    "diff": 0.0005,
+    "notes": "Largest azimuth/elevation difference over 10 times across 2027, Sun and Earth. Tolerance 0.1 deg."
+  },
+  {
+    "site": "site04",
+    "metric": "far_minus_near_dem_median_m",
+    "ours": 0,
+    "reference": 0,
+    "source": "LOLA LDEM_80S_20M_FLOAT.IMG minus PGDA 78 Site04_final_adj_5mpp_surf.tif at 3997 random points in the 5 m tile",
+    "diff": 0,
+    "notes": "Median absolute deviation 0.96 m. The export stops if the median exceeds 50 m (catches km/m or offset errors)."
+  },
+  {
+    "site": "site07",
+    "metric": "sun_pct",
+    "ours": 82.6,
+    "reference": 58.2,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608 (60 m pixel at the site point; 3x3 range 48.9-86%)",
+    "diff": 24.4,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (53.6% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; point Sun vs partial disc is negligible here (<=0.2 points)."
+  },
+  {
+    "site": "site07",
+    "metric": "earth_pct",
+    "ours": 50.5,
+    "reference": 46,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608_EARTH (60 m pixel at the site point; 3x3 range 38.9-56.5%)",
+    "diff": 4.5,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (35.4% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; Goddard counts Earth visible if any part of its disc clears the terrain, we use the disc centre."
+  },
+  {
+    "site": "site07",
+    "metric": "raycast_agreement_sun_pct",
+    "ours": 99.92,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": -0.08,
+    "notes": "Over the 7675 hours of 2027 the 30.7 km heightmap can check; 1085 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site07",
+    "metric": "raycast_agreement_earth_pct",
+    "ours": 99.95,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": -0.05,
+    "notes": "Over the 8760 hours of 2027 the 30.7 km heightmap can check; 0 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site07",
+    "metric": "horizons_vs_spice_max_deg",
+    "ours": 0.0005,
+    "reference": 0,
+    "source": "JPL Horizons API (coord@301) vs SPICE azlcpo, MOON_ME frame (Member1/pipeline/frame_check.py)",
+    "diff": 0.0005,
+    "notes": "Largest azimuth/elevation difference over 10 times across 2027, Sun and Earth. Tolerance 0.1 deg."
+  },
+  {
+    "site": "site07",
+    "metric": "far_minus_near_dem_median_m",
+    "ours": 0.02,
+    "reference": 0,
+    "source": "LOLA LDEM_80S_20M_FLOAT.IMG minus PGDA 78 Site07_final_adj_5mpp_surf.tif at 3997 random points in the 5 m tile",
+    "diff": 0.02,
+    "notes": "Median absolute deviation 0.56 m. The export stops if the median exceeds 50 m (catches km/m or offset errors)."
+  },
+  {
+    "site": "site11",
+    "metric": "sun_pct",
+    "ours": 83,
+    "reference": 79.4,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608 (60 m pixel at the site point; 3x3 range 38.3-79.4%)",
+    "diff": 3.6,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (49.1% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; point Sun vs partial disc is negligible here (<=0.2 points)."
+  },
+  {
+    "site": "site11",
+    "metric": "earth_pct",
+    "ours": 54.9,
+    "reference": 61.4,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608_EARTH (60 m pixel at the site point; 3x3 range 49.8-61.4%)",
+    "diff": -6.5,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (43.5% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; Goddard counts Earth visible if any part of its disc clears the terrain, we use the disc centre."
+  },
+  {
+    "site": "site11",
+    "metric": "raycast_agreement_sun_pct",
+    "ours": 99.92,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": -0.08,
+    "notes": "Over the 7742 hours of 2027 the 30.7 km heightmap can check; 1018 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site11",
+    "metric": "raycast_agreement_earth_pct",
+    "ours": 100,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": 0,
+    "notes": "Over the 4809 hours of 2027 the 30.7 km heightmap can check; 3951 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site11",
+    "metric": "horizons_vs_spice_max_deg",
+    "ours": 0.0005,
+    "reference": 0,
+    "source": "JPL Horizons API (coord@301) vs SPICE azlcpo, MOON_ME frame (Member1/pipeline/frame_check.py)",
+    "diff": 0.0005,
+    "notes": "Largest azimuth/elevation difference over 10 times across 2027, Sun and Earth. Tolerance 0.1 deg."
+  },
+  {
+    "site": "site11",
+    "metric": "far_minus_near_dem_median_m",
+    "ours": -0.06,
+    "reference": 0,
+    "source": "LOLA LDEM_80S_20M_FLOAT.IMG minus PGDA 78 Site11_final_adj_5mpp_surf.tif at 3997 random points in the 5 m tile",
+    "diff": -0.06,
+    "notes": "Median absolute deviation 0.61 m. The export stops if the median exceeds 50 m (catches km/m or offset errors)."
+  },
+  {
+    "site": "site23",
+    "metric": "sun_pct",
+    "ours": 74.9,
+    "reference": 70.8,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608 (60 m pixel at the site point; 3x3 range 16.8-79.9%)",
+    "diff": 4.1,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (36.9% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; point Sun vs partial disc is negligible here (<=0.2 points)."
+  },
+  {
+    "site": "site23",
+    "metric": "earth_pct",
+    "ours": 61.3,
+    "reference": 58.5,
+    "source": "NASA Goddard PGDA 69 AVGVISIB_85S_060M_201608_EARTH (60 m pixel at the site point; 3x3 range 0-68.8%)",
+    "diff": 2.8,
+    "notes": "Ours: all of 2027, hourly, 2 m mast (48.7% at 0 m). Goddard: 18.6-year average at the surface, 60 m pixel. Likely reasons for the gap (not proven): the pixel averages lower ground around these high points; different time span; different observer height; Goddard counts Earth visible if any part of its disc clears the terrain, we use the disc centre."
+  },
+  {
+    "site": "site23",
+    "metric": "raycast_agreement_sun_pct",
+    "ours": 99.65,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": -0.35,
+    "notes": "Over the 8480 hours of 2027 the 30.7 km heightmap can check; 280 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site23",
+    "metric": "raycast_agreement_earth_pct",
+    "ours": 99.97,
+    "reference": 100,
+    "source": "Member2/src/raycast.js (independent ray march through data_out/heightmap) vs the engine flags",
+    "diff": -0.03,
+    "notes": "Over the 8760 hours of 2027 the 30.7 km heightmap can check; 0 h blocked by terrain beyond it are not checkable. Shows the code and conventions are consistent, not that the terrain is accurate."
+  },
+  {
+    "site": "site23",
+    "metric": "horizons_vs_spice_max_deg",
+    "ours": 0.0005,
+    "reference": 0,
+    "source": "JPL Horizons API (coord@301) vs SPICE azlcpo, MOON_ME frame (Member1/pipeline/frame_check.py)",
+    "diff": 0.0005,
+    "notes": "Largest azimuth/elevation difference over 10 times across 2027, Sun and Earth. Tolerance 0.1 deg."
+  },
+  {
+    "site": "site23",
+    "metric": "far_minus_near_dem_median_m",
+    "ours": -0.02,
+    "reference": 0,
+    "source": "LOLA LDEM_80S_20M_FLOAT.IMG minus PGDA 78 Site23_final_adj_5mpp_surf.tif at 3997 random points in the 5 m tile",
+    "diff": -0.02,
+    "notes": "Median absolute deviation 0.72 m. The export stops if the median exceeds 50 m (catches km/m or offset errors)."
+  }
+]

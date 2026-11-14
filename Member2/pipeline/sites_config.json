@@ -1,0 +1,20 @@
+{
+  "_note": "Paths are relative to data_raw/. Download links: Member2/README.md. Names are PGDA 78's site labels.",
+  "sites": [
+    {"id": "site01", "name": "Connecting ridge (PGDA Site01)",
+     "dem": "dem/near/Site01_final_adj_5mpp_surf.tif", "roi": "roi/Site01/Site01_ROIs.shp",
+     "far": "dem/far/LDEM_80S_20M_FLOAT.IMG"},
+    {"id": "site04", "name": "Shackleton rim (PGDA Site04)",
+     "dem": "dem/near/Site04_final_adj_5mpp_surf.tif", "roi": "roi/Site04/Site04_ROIs.shp",
+     "far": "dem/far/LDEM_80S_20M_FLOAT.IMG"},
+    {"id": "site07", "name": "Peak near Shackleton (PGDA Site07)",
+     "dem": "dem/near/Site07_final_adj_5mpp_surf.tif", "roi": "roi/Site07/Site07_ROIs.shp",
+     "far": "dem/far/LDEM_80S_20M_FLOAT.IMG"},
+    {"id": "site11", "name": "de Gerlache rim (PGDA Site11)",
+     "dem": "dem/near/Site11_final_adj_5mpp_surf.tif", "roi": "roi/Site11/Site11_ROIs.shp",
+     "far": "dem/far/LDEM_80S_20M_FLOAT.IMG"},
+    {"id": "site23", "name": "Malapert massif (PGDA Site23)",
+     "dem": "dem/near/Site23_final_adj_5mpp_surf.tif", "illum": "illum/AVGVISIB_85S_060M_201608.TIF",
+     "far": "dem/far/LDEM_80S_20M_FLOAT.IMG"}
+  ]
+}

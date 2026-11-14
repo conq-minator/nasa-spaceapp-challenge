@@ -1,0 +1,122 @@
+[
+  {
+    "site": "site01",
+    "name": "Connecting ridge (PGDA Site01)",
+    "goddard_sun_pct": 68.5,
+    "goddard_sun_pct_3x3": [
+      45.4,
+      86.4
+    ],
+    "ours_sun_pct_0m": 50.7,
+    "diff_sun_0m": -17.8,
+    "ours_sun_pct_2m": 86.1,
+    "diff_sun_2m": 17.6,
+    "sun_scaled_by_label": false,
+    "goddard_earth_pct": 57.5,
+    "goddard_earth_pct_3x3": [
+      51.1,
+      58.2
+    ],
+    "ours_earth_pct_0m": 50.1,
+    "diff_earth_0m": -7.4,
+    "ours_earth_pct_2m": 51.1,
+    "diff_earth_2m": -6.4,
+    "earth_scaled_by_label": false
+  },
+  {
+    "site": "site04",
+    "name": "Shackleton rim (PGDA Site04)",
+    "goddard_sun_pct": 66.2,
+    "goddard_sun_pct_3x3": [
+      20.5,
+      76.0
+    ],
+    "ours_sun_pct_0m": 41.4,
+    "diff_sun_0m": -24.8,
+    "ours_sun_pct_2m": 80.2,
+    "diff_sun_2m": 14.0,
+    "sun_scaled_by_label": false,
+    "goddard_earth_pct": 45.2,
+    "goddard_earth_pct_3x3": [
+      0.0,
+      50.2
+    ],
+    "ours_earth_pct_0m": 34.0,
+    "diff_earth_0m": -11.2,
+    "ours_earth_pct_2m": 43.4,
+    "diff_earth_2m": -1.8,
+    "earth_scaled_by_label": false
+  },
+  {
+    "site": "site07",
+    "name": "Peak near Shackleton (PGDA Site07)",
+    "goddard_sun_pct": 58.2,
+    "goddard_sun_pct_3x3": [
+      48.9,
+      86.0
+    ],
+    "ours_sun_pct_0m": 53.6,
+    "diff_sun_0m": -4.6,
+    "ours_sun_pct_2m": 82.6,
+    "diff_sun_2m": 24.4,
+    "sun_scaled_by_label": false,
+    "goddard_earth_pct": 46.0,
+    "goddard_earth_pct_3x3": [
+      38.9,
+      56.5
+    ],
+    "ours_earth_pct_0m": 35.4,
+    "diff_earth_0m": -10.6,
+    "ours_earth_pct_2m": 50.5,
+    "diff_earth_2m": 4.5,
+    "earth_scaled_by_label": false
+  },
+  {
+    "site": "site11",
+    "name": "de Gerlache rim (PGDA Site11)",
+    "goddard_sun_pct": 79.4,
+    "goddard_sun_pct_3x3": [
+      38.3,
+      79.4
+    ],
+    "ours_sun_pct_0m": 49.1,
+    "diff_sun_0m": -30.3,
+    "ours_sun_pct_2m": 83.0,
+    "diff_sun_2m": 3.6,
+    "sun_scaled_by_label": false,
+    "goddard_earth_pct": 61.4,
+    "goddard_earth_pct_3x3": [
+      49.8,
+      61.4
+    ],
+    "ours_earth_pct_0m": 43.5,
+    "diff_earth_0m": -17.9,
+    "ours_earth_pct_2m": 54.9,
+    "diff_earth_2m": -6.5,
+    "earth_scaled_by_label": false
+  },
+  {
+    "site": "site23",
+    "name": "Malapert massif (PGDA Site23)",
+    "goddard_sun_pct": 70.8,
+    "goddard_sun_pct_3x3": [
+      16.8,
+      79.9
+    ],
+    "ours_sun_pct_0m": 36.9,
+    "diff_sun_0m": -33.9,
+    "ours_sun_pct_2m": 74.9,
+    "diff_sun_2m": 4.1,
+    "sun_scaled_by_label": false,
+    "goddard_earth_pct": 58.5,
+    "goddard_earth_pct_3x3": [
+      0.0,
+      68.8
+    ],
+    "ours_earth_pct_0m": 48.7,
+    "diff_earth_0m": -9.8,
+    "ours_earth_pct_2m": 61.3,
+    "diff_earth_2m": 2.8,
+    "earth_scaled_by_label": false
+  }
+]

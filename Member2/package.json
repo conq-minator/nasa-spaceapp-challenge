@@ -1,0 +1,8 @@
+{
+  "name": "lunawise-member2-terrain",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

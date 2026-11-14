@@ -1,0 +1,362 @@
+[
+  {
+    "id": "site01_n1km",
+    "name": "Connecting ridge (PGDA Site01) \u00b7 1 km north",
+    "parent": "site01",
+    "lat": -89.419697,
+    "lon": -137.148653,
+    "ground_height_m": 1919.57,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 0.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      1000.0
+    ],
+    "heightmap_of": "site01",
+    "source_file": "Site01_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km north of site01: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site01's heightmap."
+  },
+  {
+    "id": "site01_e1km",
+    "name": "Connecting ridge (PGDA Site01) \u00b7 1 km east",
+    "parent": "site01",
+    "lat": -89.451682,
+    "lon": -133.700536,
+    "ground_height_m": 1784.36,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 90.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      1000.0,
+      0.0
+    ],
+    "heightmap_of": "site01",
+    "source_file": "Site01_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km east of site01: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site01's heightmap."
+  },
+  {
+    "id": "site01_s1km",
+    "name": "Connecting ridge (PGDA Site01) \u00b7 1 km south",
+    "parent": "site01",
+    "lat": -89.485653,
+    "lon": -137.148653,
+    "ground_height_m": 1915.85,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 180.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      -1000.0
+    ],
+    "heightmap_of": "site01",
+    "source_file": "Site01_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km south of site01: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site01's heightmap."
+  },
+  {
+    "id": "site01_w1km",
+    "name": "Connecting ridge (PGDA Site01) \u00b7 1 km west",
+    "parent": "site01",
+    "lat": -89.451682,
+    "lon": -140.596769,
+    "ground_height_m": 1821.3,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 270.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      -1000.0,
+      -0.0
+    ],
+    "heightmap_of": "site01",
+    "source_file": "Site01_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km west of site01: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site01's heightmap."
+  },
+  {
+    "id": "site04_n1km",
+    "name": "Shackleton rim (PGDA Site04) \u00b7 1 km north",
+    "parent": "site04",
+    "lat": -89.728988,
+    "lon": -157.067197,
+    "ground_height_m": 1616.54,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 0.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      1000.0
+    ],
+    "heightmap_of": "site04",
+    "source_file": "Site04_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km north of site04: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site04's heightmap."
+  },
+  {
+    "id": "site04_e1km",
+    "name": "Shackleton rim (PGDA Site04) \u00b7 1 km east",
+    "parent": "site04",
+    "lat": -89.759693,
+    "lon": -149.179461,
+    "ground_height_m": 1528.23,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 90.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      1000.0,
+      0.0
+    ],
+    "heightmap_of": "site04",
+    "source_file": "Site04_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km east of site04: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site04's heightmap."
+  },
+  {
+    "id": "site04_s1km",
+    "name": "Shackleton rim (PGDA Site04) \u00b7 1 km south",
+    "parent": "site04",
+    "lat": -89.794944,
+    "lon": -157.067197,
+    "ground_height_m": 1663.79,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 180.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      -1000.0
+    ],
+    "heightmap_of": "site04",
+    "source_file": "Site04_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km south of site04: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site04's heightmap."
+  },
+  {
+    "id": "site04_w1km",
+    "name": "Shackleton rim (PGDA Site04) \u00b7 1 km west",
+    "parent": "site04",
+    "lat": -89.759693,
+    "lon": -164.954932,
+    "ground_height_m": 1321.36,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 270.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      -1000.0,
+      -0.0
+    ],
+    "heightmap_of": "site04",
+    "source_file": "Site04_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km west of site04: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site04's heightmap."
+  },
+  {
+    "id": "site07_n1km",
+    "name": "Peak near Shackleton (PGDA Site07) \u00b7 1 km north",
+    "parent": "site07",
+    "lat": -88.774348,
+    "lon": 123.776844,
+    "ground_height_m": 1568.44,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 0.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      1000.0
+    ],
+    "heightmap_of": "site07",
+    "source_file": "Site07_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km north of site07: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site07's heightmap."
+  },
+  {
+    "id": "site07_e1km",
+    "name": "Peak near Shackleton (PGDA Site07) \u00b7 1 km east",
+    "parent": "site07",
+    "lat": -88.80687,
+    "lon": 125.360805,
+    "ground_height_m": 1592.82,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 90.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      1000.0,
+      0.0
+    ],
+    "heightmap_of": "site07",
+    "source_file": "Site07_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km east of site07: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site07's heightmap."
+  },
+  {
+    "id": "site07_s1km",
+    "name": "Peak near Shackleton (PGDA Site07) \u00b7 1 km south",
+    "parent": "site07",
+    "lat": -88.840304,
+    "lon": 123.776844,
+    "ground_height_m": 1549.47,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 180.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      -1000.0
+    ],
+    "heightmap_of": "site07",
+    "source_file": "Site07_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km south of site07: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site07's heightmap."
+  },
+  {
+    "id": "site07_w1km",
+    "name": "Peak near Shackleton (PGDA Site07) \u00b7 1 km west",
+    "parent": "site07",
+    "lat": -88.80687,
+    "lon": 122.192884,
+    "ground_height_m": 1519.99,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 270.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      -1000.0,
+      -0.0
+    ],
+    "heightmap_of": "site07",
+    "source_file": "Site07_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km west of site07: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site07's heightmap."
+  },
+  {
+    "id": "site11_n1km",
+    "name": "de Gerlache rim (PGDA Site11) \u00b7 1 km north",
+    "parent": "site11",
+    "lat": -88.635278,
+    "lon": -68.375764,
+    "ground_height_m": 1717.12,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 0.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      1000.0
+    ],
+    "heightmap_of": "site11",
+    "source_file": "Site11_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km north of site11: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site11's heightmap."
+  },
+  {
+    "id": "site11_e1km",
+    "name": "de Gerlache rim (PGDA Site11) \u00b7 1 km east",
+    "parent": "site11",
+    "lat": -88.667848,
+    "lon": -66.957115,
+    "ground_height_m": 1683.03,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 90.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      1000.0,
+      0.0
+    ],
+    "heightmap_of": "site11",
+    "source_file": "Site11_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km east of site11: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site11's heightmap."
+  },
+  {
+    "id": "site11_s1km",
+    "name": "de Gerlache rim (PGDA Site11) \u00b7 1 km south",
+    "parent": "site11",
+    "lat": -88.701234,
+    "lon": -68.375764,
+    "ground_height_m": 1781.2,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 180.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      -1000.0
+    ],
+    "heightmap_of": "site11",
+    "source_file": "Site11_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km south of site11: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site11's heightmap."
+  },
+  {
+    "id": "site11_w1km",
+    "name": "de Gerlache rim (PGDA Site11) \u00b7 1 km west",
+    "parent": "site11",
+    "lat": -88.667848,
+    "lon": -69.794414,
+    "ground_height_m": 1581.12,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 270.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      -1000.0,
+      -0.0
+    ],
+    "heightmap_of": "site11",
+    "source_file": "Site11_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km west of site11: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site11's heightmap."
+  },
+  {
+    "id": "site23_n1km",
+    "name": "Malapert massif (PGDA Site23) \u00b7 1 km north",
+    "parent": "site23",
+    "lat": -85.969772,
+    "lon": 2.197695,
+    "ground_height_m": 5148.93,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 0.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      1000.0
+    ],
+    "heightmap_of": "site23",
+    "source_file": "Site23_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km north of site23: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site23's heightmap."
+  },
+  {
+    "id": "site23_e1km",
+    "name": "Malapert massif (PGDA Site23) \u00b7 1 km east",
+    "parent": "site23",
+    "lat": -86.002614,
+    "lon": 2.670766,
+    "ground_height_m": 5136.1,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 90.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      1000.0,
+      0.0
+    ],
+    "heightmap_of": "site23",
+    "source_file": "Site23_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km east of site23: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site23's heightmap."
+  },
+  {
+    "id": "site23_s1km",
+    "name": "Malapert massif (PGDA Site23) \u00b7 1 km south",
+    "parent": "site23",
+    "lat": -86.035728,
+    "lon": 2.197695,
+    "ground_height_m": 5048.72,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 180.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      0.0,
+      -1000.0
+    ],
+    "heightmap_of": "site23",
+    "source_file": "Site23_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km south of site23: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site23's heightmap."
+  },
+  {
+    "id": "site23_w1km",
+    "name": "Malapert massif (PGDA Site23) \u00b7 1 km west",
+    "parent": "site23",
+    "lat": -86.002614,
+    "lon": 1.724624,
+    "ground_height_m": 5117.37,
+    "obs_height_m": 2.0,
+    "offset_bearing_deg": 270.0,
+    "offset_dist_m": 1000.0,
+    "lander_offset_m": [
+      -1000.0,
+      -0.0
+    ],
+    "heightmap_of": "site23",
+    "source_file": "Site23_final_adj_5mpp_surf.tif",
+    "description": "Computed point 1 km west of site23: same terrain pipeline (5 m + 20 m DEM to 200 km). 3D view: site23's heightmap."
+  }
+]
